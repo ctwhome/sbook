@@ -8,7 +8,6 @@ module.exports = {
   ],
   plugins: [
     require('daisyui'),
-    require('flowbite/plugin'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/line-clamp'),

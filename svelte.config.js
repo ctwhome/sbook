@@ -24,19 +24,14 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-
-		// Override http methods in the Todo forms
-		methodOverride: {
-			allowed: ['PATCH', 'DELETE']
-		},
-    alias: {
-      // these are the aliases and paths to them
-      $api: path.resolve('./src/api'),
-      $lib: path.resolve('./src/lib'),
-      $components: path.resolve('./src/lib/components'),
-      $assets: path.resolve('./src/assets'),
-      $content: path.resolve('./src/content')
-    }
+		alias: {
+			// these are the aliases and paths to them
+			$api: path.resolve('./src/api'),
+			$lib: path.resolve('./src/lib'),
+			$components: path.resolve('./src/lib/components'),
+			$assets: path.resolve('./src/assets'),
+			$content: path.resolve('./src/content')
+		}
 	}
 };
 
